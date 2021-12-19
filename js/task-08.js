@@ -14,6 +14,5 @@ function onFormSubmit(event) {
 }
 
 function toConsole({ email, password }) {
-  console.log('email:', email);
-  console.log('password:', password);
+  console.log({ email, password });
 }
